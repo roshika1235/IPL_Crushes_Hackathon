@@ -1,6 +1,3 @@
-Here is a revised, tailored description optimized for your GitHub repository. Since it is a **single Google Colab file** designed for a **Streamlit Community Cloud** deployment, the setup instructions and architecture are streamlined perfectly for that workflow.
-
----
 
 # IPL Crushes — Wooble Crunch-26 Hackathon Submission
 
@@ -56,8 +53,4 @@ To launch this project into production:
 
 * **Hackathon:** Wooble Crunch-26
 * **Team / Developer:** [Roshika Challa]
-
-
----
-
-### Copy-paste this directly into your GitHub description or README.md. Best of luck with your Streamlit deployment for the hackathon!
+* **Project link:**  - https://iplcrusheshackathon-yajn4qwaoqmcsc4wn3kt6v.streamlit.app/
