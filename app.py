@@ -61,7 +61,7 @@ st.header("Q2 — Which Phase is Most Linked to Winning?")
 phase_runs = df.groupby(['match_id', 'batting_team', 'phase'])['runs_on_ball'].sum().reset_index()
 match_winners = df[['match_id', 'winner']].drop_duplicates()
 phase_runs = phase_runs.merge(match_winners, on='match_id')
-phase_runs['team_won'] = phase_runs['batting_team'] == phase_winners['winner']
+phase_runs['team_won'] = phase_runs['batting_team'] == phase_runs['winner']
 
 phase_summary = phase_runs.groupby(['phase', 'team_won'])['runs_on_ball'].mean().unstack()
 phase_summary.columns = ['Lost', 'Won']
